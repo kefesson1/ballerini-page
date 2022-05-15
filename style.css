@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    font-size: 100%;
+    background: linear-gradient(to right, #2F2325, #8E5D52);
+  }
+
+  .header {
+      display:flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      margin: 18px 0;
+  }
+
+  .nav-img{
+      height: 72px;
+  }
+
+  .header-menu {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+  }
+
+  .nav-link {
+      color:#FFF2E7;
+      font-family: 'Sarala', sans-serif;
+      font-weight: 400;
+      font-size:18px;
+  }
+
+  .primary-section{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      border-top: 0.1px solid #FFF2E7;
+  }
+
+  .title-container{
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+  }
+
+  .primary-section-title{
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-size: 64px;
+    font-weight: 400;
+  }
+
+  .primary-section-subtitle{
+    font-family: 'Sarala', sans-serif;
+    color: #ECD6C4;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  .primary-section-btn{
+      width: 180px;
+      height: 65px;
+      background: #ECD6C4;
+      box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 25px;
+      font-family: 'Sarala', sans-serif;
+      color: #2F2325;
+      font-size: 24px;
+      font-weight: 400;
+      border: none;
+  }
+
+  .primary-section-btn:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+    cursor: pointer;
+  }
+  .primary-section-btn:active{
+    background-color: rgba(236, 214, 196, 0.33);
+  }
+
+  .primary-section-img{
+      height:430px;
+  }
+
+  .secondary-section{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+      margin-top: 30px;
+  }
+
+  .secondary-section-title{
+      padding: 50px 0;
+      border-top: 0.4px solid #FFF2E7;
+      font-family: 'Righteous', cursive;
+      font-size: 24px;
+      font-weight: 400;
+      color: #FFF2E7;
+  }
+
+  .secondary-section-paragraph{
+      color: #ECD6C4;
+      font-family: 'Sarala', sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+  }
+
+  .site-footer{
+      border-top: 0.4px solid #FFF2E7;
+      margin: 50px 0;
+      padding-top: 50px;
+  }
+
+  .footer-img{
+      display: block;
+      margin: 0 auto;
+  }
